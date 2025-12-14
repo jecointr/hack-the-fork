@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adobe Garamond Pro Font */
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  src: local('Adobe Garamond Pro'), 
+       url('/fonts/AGaramondPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  src: local('Adobe Garamond Pro Italic'), 
+       url('/fonts/AGaramondPro-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Adobe Garamond Pro';
+  src: local('Adobe Garamond Pro Bold'), 
+       url('/fonts/AGaramondPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Adobe Garamond Pro', 'Garamond', serif;
+}

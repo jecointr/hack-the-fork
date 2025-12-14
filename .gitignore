@@ -1,0 +1,40 @@
+# --- SYSTÈME & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- PYTHON ---
+# Environnement virtuel
+venv/
+env/
+.venv/
+
+# Cache et compilations
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- NODE / FRONTEND ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- DATA SCIENCE & RAG ---
+
+# La base de données vectorielle générée (Se recrée automatiquement)
+vectorstore_db/
+PythonAPI/vectorstore_db/
+
+# Fichiers de données lourds (Optionnel : peuvent être gardés si < 100Mo)
+#*.pkl
+# *.csv
+# *.tsv
+
+# --- SÉCURITÉ (CRITIQUE) ---
+.env
+.env.*
